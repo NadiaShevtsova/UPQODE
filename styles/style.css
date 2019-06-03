@@ -1,0 +1,609 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "BEYNO";
+    src: url("../fonts/BEYNO/BEYNO.eot");
+    src: url("../fonts/BEYNO/BEYNO.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/BEYNO/BEYNO.woff") format("woff"),
+    url("../fonts/BEYNO/BEYNO.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Lato-Light";
+    src: url("../fonts/Lato-Light/Lato-Light.eot");
+    src: url("../fonts/Lato-Light/Lato-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Lato-Light/Lato-Light.woff") format("woff"),
+    url("../fonts/Lato-Light/Lato-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Lato-Bold";
+    src: url("../fonts/Lato-Bold/Lato-Bold.eot");
+    src: url("../fonts/Lato-Bold/Lato-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Lato-Bold/Lato-Bold.woff") format("woff"),
+    url("../fonts/Lato-Bold/Lato-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Lato-Regular";
+    src: url("../fonts/Lato-Regular/Lato-Regular.eot");
+    src: url("../fonts/Lato-Regular/Lato-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Lato-Regular/Lato-Regular.woff") format("woff"),
+    url("../fonts/Lato-Regular/Lato-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Lato-Semibold";
+    src: url("../fonts/Lato-Semibold/Lato-Semibold.eot");
+    src: url("../fonts/Lato-Semibold/Lato-Semibold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Lato-Semibold/Lato-Semibold.woff") format("woff"),
+    url("../fonts/Lato-Semibold/Lato-Semibold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Lato-Heavy";
+    src: url("../fonts/Lato-Heavy/Lato-Heavy.eot");
+    src: url("../fonts/Lato-Heavy/Lato-Heavy.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Lato-Heavy/Lato-Heavy.woff") format("woff"),
+    url("../fonts/Lato-Heavy/Lato-Heavy.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.main-wrapper {
+    margin: 0 auto;
+    max-width: 1600px;
+    min-width: 320px;
+}
+
+.slide, .deep1 li a, .deep2 li, .section-our-products, .contact {
+    position: relative;
+}
+
+.deep2, .deep3, .cont-for-slide, .section-our-products .container-for-img, .contact .bg-shadow, .form-contact {
+    position: absolute;
+}
+
+.header, .deep1, .container-for-nav-and-search, .main-navigation, .container-for-our-products .product,
+.product-description, .container-for-our-products, .section-why-choose-us, .container-for-blocks,
+.form-for-search, .search-icon, .container-for-blocks, .section-why-choose-us .img-for-block,
+.section-why-choose-us .see-more .circle, .section-why-choose-us .see-more .circle div,
+.section-our-products .header-height, .form-contact, .form-contact .checkbox-and-button,
+.checkbox-and-button, footer, .contact, .inputs-for-name-and-email {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-navigation, .product, .section-why-choose-us, .section-why-choose-us .img-for-block,
+.section-why-choose-us .see-more .circle div, .section-our-products .header-height,
+.checkbox-and-button, footer, .contact {
+    align-items: center;
+}
+
+.section-home .slide1, .product-description, .container-for-our-products, .search-icon, .container-for-blocks,
+.section-why-choose-us .img-for-block, .section-why-choose-us .see-more .circle,
+.section-why-choose-us .see-more .circle div, .section-our-products .header-height, .contact {
+    justify-content: center;
+}
+
+.header, .form-contact .checkbox-and-button, .form-contact, footer {
+    justify-content: space-between;
+}
+
+.container-for-text, .cont-for-slide, .block {
+    text-align: center;
+}
+
+.product-description, .slide, .section-why-choose-us {
+    flex-direction: column;
+}
+
+.search input, .search-icon {
+    border: none;
+    outline: none;
+    background: #e8e4f1;
+}
+
+.search-icon {
+    cursor: pointer;
+}
+
+.header {
+    padding: 15px 185px;
+}
+
+.cont-for-slide, .section-our-products .container-for-img, .contact iframe,
+.contact .bg-shadow {
+    width: 100%;
+}
+
+h1, .header-for-products {
+    letter-spacing: 5px;
+}
+
+/*font-size*/
+h1 {
+    font-size: 64px;
+}
+
+.header-for-products, .header-why-choose-us {
+    font-size: 35px;
+}
+
+.logo, .section-our-products .title {
+    font-size: 24px;
+}
+
+.deep2 li a:hover:before, .deep1 li a {
+    font-size: 14px;
+}
+
+.logo, .title, .header-why-choose-us, h1, .section-why-choose-us h3, .header-for-products {
+    text-transform: uppercase;
+}
+
+.logo {
+    font-family: "BEYNO";
+}
+
+body, .main-navigation .deep1 li, .section-home .cont-for-slide p, .section-why-choose-us .container-for-text p,
+.product-description h3 + p, .contact .form-contact, input::placeholder, textarea::placeholder, button {
+    font-family: "Lato-Regular";
+}
+
+.main-navigation .deep1 li:hover, .section-home h1, .header-why-choose-us, .header-for-products {
+    font-family: "Lato-Bold";
+}
+
+.main-navigation .deep2 li, .main-navigation .deep2 li:hover, .section-why-choose-us .your-title p,
+.product-description .description {
+    font-family: "Lato-Light";
+}
+
+.section-why-choose-us .your-title h3, .container-for-our-products .title {
+    font-family: "Lato-Heavy";
+}
+
+.section-why-choose-us .see-more h3 {
+    font-family: "Lato-Semibold";
+}
+
+.logo {
+    color: #009dda;
+}
+
+.logo .colortext, .section-our-products .title + p {
+    color: #503392;
+}
+
+h1, .header-for-products, .deep2 li:hover > a, li:focus {
+    color: #fff200;
+}
+
+.slick-dots .slink-active button:before {
+    color: #b7b7b7;
+}
+
+.header-why-choose-us {
+    color: #6bbae4;
+}
+
+.section-why-choose-us h2 span {
+    color: #232323;
+}
+
+.section-why-choose-us p, .section-our-products p {
+    color: #373737;
+}
+
+h1, .header-why-choose-us {
+    margin: 20px;
+}
+
+.section-why-choose-us .container-for-text p {
+    color: #999999
+}
+
+.section-why-choose-us .see-more .circle div, .inputs-for-name-and-email input,
+.form-contact textarea {
+    border: 1px solid white;
+}
+
+/*menu*/
+.fix {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background: white;
+    z-index: 120;
+}
+
+.deep1 li {
+    list-style-type: none;
+}
+
+.deep2 li {
+    padding: 5px 15px;
+}
+
+.deep2 li a:before {
+    content: "\003E";
+    padding-right: 5px;
+    font-weight: 900;
+    font-size: 11px;
+}
+
+.deep2 li a:hover:before {
+    content: "\00BB";
+    font-size: 16px;
+}
+
+.deep2, .deep3, .form-contact {
+    z-index: 100;
+}
+
+.deep2, .deep3 {
+    top: 56px;
+    width: 160px;
+    background: rgba(44, 29, 64, 0.8);
+    padding: 15px 0;
+    border-top: 1px solid #fff200;
+}
+
+.deep1 > li > a {
+    padding: 20px 22px;
+}
+
+.deep1 li a {
+    text-decoration: none;
+}
+
+.deep2 li a, .section-home .pointer, h1 span, .cont-for-slide p, .header-for-products span,
+.checkbox-and-button label {
+    color: white;
+}
+
+.deep3 {
+    left: 160px;
+    top: 5%;
+}
+
+nav .deep2, nav .deep3, .section-why-choose-us .block:hover .your-title, .section-why-choose-us .see-more,
+.checkbox {
+    display: none;
+}
+
+.deep1 > li:hover .deep2, .deep2 > li:hover .deep3 {
+    display: block;
+}
+
+.search {
+    margin-left: 15px;
+}
+
+.search input {
+    height: 24px;
+    width: 90px;
+}
+
+.form-for-search {
+    background: #e8e4f1;
+    width: 137px;
+}
+
+/*main*/
+.section-home .slide1 {
+    background: url("../images/creative_mess.png") center center no-repeat;
+    background-size: cover;
+    height: 620px;
+}
+
+.section-home .slide2 {
+    background: url("../images/kosmos.jpg") center center no-repeat;
+    background-size: cover;
+    height: 620px;
+}
+
+.section-home .slide3 {
+    background: url("../images/kosmos.jpg") center center no-repeat;
+    background-size: cover;
+    height: 620px;
+}
+
+/*slider*/
+.slick-dots li.slick-active button:before {
+    color: white;
+}
+
+.slick-dots li button:before {
+    font-size: 10px
+}
+
+.slick-dots li {
+    margin: 0;
+}
+
+.slick-prev:before {
+    content: "‹";
+}
+
+.slick-next, .slick-prev {
+    height: 50px;
+    width: 50px;
+    background: rgba(255, 255, 255, 0.4);
+    line-height: 0;
+}
+
+.slick-next:hover, .slick-prev:hover {
+    height: 50px;
+    width: 50px;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.slick-prev:before, .slick-next:before {
+    line-height: 0;
+}
+
+[dir="rtl"] .slick-prev:before {
+    content: "›";
+}
+
+.slick-next:before {
+    content: "›";
+}
+
+[dir="rtl"] .slick-next:before {
+    content: "‹";
+}
+
+.slick-prev, .slick-next, .slick-dots {
+    z-index: 1;
+}
+
+.slick-prev {
+    left: 0;
+    margin-left: 20px;
+}
+
+.slick-next {
+    right: 0;
+    margin-right: 20px;
+}
+
+.slick-dots {
+    bottom: 0;
+    padding-bottom: 20px;
+}
+
+.slide, .container-for-our-products .product {
+    padding: 0 20px;
+
+}
+
+.slick-dots li button:before, .form-contact input, .form-contact textarea {
+    color: white;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
+
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+/*why choose us*/
+.block {
+    border: 1px solid black;
+}
+
+.section-why-choose-us {
+    margin-bottom: 100px;
+}
+
+.section-why-choose-us .block {
+    width: 180px;
+    margin: 10px;
+}
+
+.section-why-choose-us .container-for-text {
+    margin: 80px 0;
+}
+
+.section-why-choose-us .img-for-block {
+    height: 100px;
+}
+
+.section-why-choose-us h3 {
+    padding: 30px 0;
+}
+
+.section-why-choose-us .block p {
+    padding: 0 10px 10px 10px;
+}
+
+.section-why-choose-us .your-title, .section-why-choose-us .see-more {
+    height: 150px;
+}
+
+.section-why-choose-us .block:hover .see-more {
+    display: block;
+}
+
+.section-why-choose-us .see-more, .section-why-choose-us .see-more .circle div:nth-child(1) {
+    background: #503392;
+}
+
+.section-why-choose-us .see-more .circle div:nth-child(2) {
+    background-color: white;
+}
+
+.section-why-choose-us .see-more .circle div {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+/*products*/
+.container-for-our-products {
+    background: url("../images/polygon.png") center center no-repeat;
+    background-size: cover;
+}
+
+.container-for-our-products {
+    padding: 250px 0 150px 0;
+}
+
+.container-for-our-products .product {
+    margin: 40px 0;
+}
+
+.product-description {
+    padding: 20px;
+    width: 170px;
+}
+
+.cont-for-slide {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section-our-products .header-height {
+    height: 122px;
+}
+
+.section-our-products .container-for-img {
+    background: url("../images/top-img.png") center center no-repeat;
+    background-size: cover;
+    height: 161px;
+}
+
+.container-for-our-products {
+    top: 0;
+    z-index: -1;
+}
+
+/*contact*/
+input::placeholder, textarea::placeholder {
+    color: #b7b7b7;
+}
+
+.form-contact textarea {
+    padding: 5px;
+}
+
+.contact .bg-shadow {
+    height: 700px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.form-contact {
+    background-color: rgba(52, 51, 50, 0.7);
+    padding: 70px;
+}
+
+.inputs-for-name-and-email input, .form-contact textarea {
+    background: none;
+}
+
+input[type="checkbox"] {
+    visibility: hidden;
+}
+
+.checkbox-and-button label {
+    cursor: pointer;
+}
+
+input[type="checkbox"] + label:before {
+    border: 1px solid #f3f3f3;
+    content: "\00a0";
+    display: inline-block;
+    font: 16px/1em sans-serif;
+    height: 16px;
+    margin: 0 .25em 0 0;
+    padding: 0;
+    vertical-align: top;
+    width: 16px;
+}
+
+input[type="checkbox"]:checked + label:before {
+    background: #fff;
+    color: #333;
+    content: "\2713";
+    text-align: center;
+}
+
+input[type="checkbox"]:checked + label:after {
+    font-weight: bold;
+}
+
+input[type="checkbox"]:focus + label::before {
+    outline: rgb(59, 153, 252) auto 5px;
+}
+
+.inputs-for-name-and-email input {
+    width: 250px;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.inputs-for-name-and-email input:nth-child(1) {
+    margin-right: 5px;
+}
+
+.form-contact .text {
+    color: #f3f3f3;
+}
+
+.form-contact textarea {
+    height: 150px;
+}
+
+.form-contact form div {
+    padding-bottom: 10px;
+}
+
+.form-contact .text p {
+    padding-bottom: 20px;
+}
+
+.checkbox-and-button button {
+    padding: 15px 30px;
+    background: #ffff00;
+    border: none;
+}
+
+.form-contact textarea {
+    width: 97.8%;
+}
+
+footer {
+    background: black;
+    color: #7a7a7a;
+    height: 50px;
+    margin-top: -0.3%;
+}
+
+footer div, .contact form {
+    margin: 0 20px;
+}
+
+.social img {
+    margin-right: 20px;
+}
